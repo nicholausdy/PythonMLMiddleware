@@ -4,5 +4,5 @@ import cronManager
 
 user = "cinnamon"
 directory = "/notificationHandler.py"
-minutes = 1
+minutes = 15
 cronManager.runWorkerAsCronJob(user, directory, minutes)
