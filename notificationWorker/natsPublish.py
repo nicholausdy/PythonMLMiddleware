@@ -12,7 +12,6 @@ async def run(data):
     await nc.publish(topic, json.dumps(data).encode())
     await nc.close()
 
-def notificationHandler(data):
+def runPublisher(data):
     loop = asyncio.get_event_loop()
     loop.run_until_complete(run(data))
-   

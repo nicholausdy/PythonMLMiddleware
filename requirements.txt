@@ -3,3 +3,6 @@ asyncio-nats-client==0.10.0
 dataclasses==0.7
 nats-python==0.8.0
 pkg-resources==0.0.0
+python-crontab==2.5.1
+python-dateutil==2.8.1
+six==1.15.0
