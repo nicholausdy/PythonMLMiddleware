@@ -9,7 +9,7 @@ from crontab import CronTab
 user = "cinnamon"
 
 def getCommandDirectory():
-    #rstrip to remove trailing newline, decode to convert string to bytes using utf-8 encoding
+    #rstrip to remove trailing newline, decode to convert bytes to string using utf-8 encoding
     python3Directory = subprocess.check_output(["which","python3"]).rstrip().decode("utf-8") 
     workingDirectory = os.getcwd()
     appName = "/notificationHandler.py"
