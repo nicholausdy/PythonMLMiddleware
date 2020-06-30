@@ -1,3 +1,0 @@
-asyncio_nats_client==0.10.0
-nats==0.1
-python_crontab==2.5.1
